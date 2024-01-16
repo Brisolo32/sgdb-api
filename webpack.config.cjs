@@ -7,8 +7,5 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // the output directory
   },
   target: 'node', // to bundle for node.js environment
-  externals: { // to not bundle some modules
-    express: 'commonjs express' // for example, to not bundle express
-  },
   mode: 'production'
 };
