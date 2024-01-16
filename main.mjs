@@ -1,7 +1,9 @@
-const express = require('express')
-const cors = require('cors')
-const SGDB = require('steamgriddb')
-const dotenv = require('dotenv').config()
+import express from 'express'
+import cors from 'cors'
+import SGDB from 'steamgriddb'
+import dotenv from "dotenv"
+
+dotenv.config()
 
 const app = express()
 app.use(cors({
@@ -45,4 +47,4 @@ app.get('/api/getgrid/:gamename', async (req, res) => {
 
 app.listen(3000)
 
-module.exports = app
+export default app
