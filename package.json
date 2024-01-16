@@ -10,7 +10,7 @@
     "@types/express": "^4.17.21"
   },
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.js",
   "license": "MIT",
   "type": "module"
 }
