@@ -12,6 +12,5 @@
   "name": "sgdb-api",
   "version": "1.0.0",
   "main": "main.js",
-  "license": "MIT",
-  "type": "module"
+  "license": "MIT"
 }
